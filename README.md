@@ -47,7 +47,7 @@ In the [schematics](./assets/schematics/) folder you can find a .sim file that c
 ## Installation
 1. Clone the repository:
 ```bash
-git clone https://github.com/Adrifot/EV-Charger-Arduino---ATMega-328P-.git
+git clone https://github.com/Adrifot/Arduino-EV-Charger.git
 ```
 
 2. Open the `main.cpp` file. You can convert it to a `.ino` file to open it in Arduino IDE. Otherwise, you can use the [PlatformIO extension for VSCode](https://platformio.org/install/ide?install=vscode).
@@ -60,5 +60,3 @@ git clone https://github.com/Adrifot/EV-Charger-Arduino---ATMega-328P-.git
 2. Press **BTN1** to start charging. The green LED will become RED and the blue LEDs will start blinking. 
 
 3. Wait for the process to finish or press and hold **BTN2** for 3 seconds to forcefully stop the charging process.
-
-![Example of usage - video](./assets/media/project_demonstration.mp4 "How to use - video")
