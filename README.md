@@ -1,5 +1,4 @@
 # EV Charging Station
-## University of Bucharest, Faculty of Mathematics and Computer Science, 2024
 
 This project is an Arduino-based (ATMega328P) controller for a "charging station", featuring LED indicators and buttons to control the charging process.
 
@@ -12,7 +11,9 @@ This project is an Arduino-based (ATMega328P) controller for a "charging station
 
 ## Overview
 
-The Charging Station uses two buttons to start and stop the charging process, while the blue LEDs and the RGB LED provides visual feedback. BTN1 initiates charging and BTN2 stops the process if long-pressed for at least 3 seconds. [See schematics folder for more info](./assets/schematics/).
+The Charging Station uses two buttons to start and stop the charging process, while the blue LEDs and the RGB LED provides visual feedback. BTN1 initiates charging and BTN2 stops the process if long-pressed for at least 3 seconds. See [Project Schematic](#project-schematic) for more info.
+
+![Project image](./assets/media/ev_charger.jpg "The EV Charger project")
 
 ## Hardware Setup
 
@@ -21,7 +22,7 @@ The Charging Station uses two buttons to start and stop the charging process, wh
 - x2 push buttons (BTN1, BTN2)
 - x4 blue LEDs - for charge process simulation (LED1-4)
 - x1 RGB LED - red/green color shows station availability (RLED, GLED)
-- x6 220 resistors (for LEDs) - _optionally_ + 1 220 resistor for the blue pin in the RGB LED.
+- x6 220Ω resistors (for LEDs) - _optionally + 1 220Ω resistor for the blue pin in the RGB LED_.
 - x2 1K resistors (for buttons)
 - Jumper wires
 
@@ -31,7 +32,7 @@ The Charging Station uses two buttons to start and stop the charging process, wh
 - LED1 to LED4 (Pins 7 to 10)
 - GLED (Pin 5)
 - RLED (Pin 6)
-- _Optional_: BLED (Pin4) - in case you want to add/modify something
+- _Optional: BLED (Pin4) - in case you want to add/modify something_.
 
 > [!NOTE]
 Both buttons (BTN1 & BTN2) use **pull-down** resistors.
@@ -41,7 +42,7 @@ Both buttons (BTN1 & BTN2) use **pull-down** resistors.
 ![Schematic image](./assets/schematics/scehamtic.png "Project Schematic")
 
 > [!NOTE]
-In the [Schematics folder](./assets/schematics/) you can find a .sim file that can be opened in [SimulIDE](https://simulide.com/p/).
+In the [schematics](./assets/schematics/) folder you can find a .sim file that can be opened in [SimulIDE](https://simulide.com/p/).
 
 ## Installation
 1. Clone the repository:
@@ -59,3 +60,5 @@ git clone https://github.com/Adrifot/EV-Charger-Arduino---ATMega-328P-.git
 2. Press **BTN1** to start charging. The green LED will become RED and the blue LEDs will start blinking. 
 
 3. Wait for the process to finish or press and hold **BTN2** for 3 seconds to forcefully stop the charging process.
+
+![Example of usage - video](./assets/media/project_demonstration.mp4 "How to use - video")
