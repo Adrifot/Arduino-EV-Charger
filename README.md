@@ -7,7 +7,7 @@ This project is an Arduino-based (ATMega328P) controller for a "charging station
 
 1. [Overview](#overview)
 2. [Hardware Setup](#hardware-setup)
-3. [Installation] (#installation)
+3. [Installation](#installation)
 4. [Usage](#usage)
 
 ## Overview
