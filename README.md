@@ -2,6 +2,8 @@
 
 This project is an Arduino-based (ATMega328P) controller for a "charging station", featuring LED indicators and buttons to control the charging process.
 
+[Prject #2](https://github.com/Adrifot/TypeRacer-Arduino)
+
 ## Table of Contents
 
 1. [Overview](#overview)
